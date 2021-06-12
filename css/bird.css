@@ -1,0 +1,82 @@
+html, input {
+    font-family: sans-serif;
+}
+body {
+    background-color: blue;
+    text-align: center;
+    background-image: url('C:\Users\ashok\Downloads\javascriptProgramming\BirdSanctury\bird.jfif');
+    width: 100%;
+    max-width: 800px;
+    margin: 0px auto;
+   
+}
+.form {
+    background-color: white;
+    align-Content: center;
+    text-align: center;
+    margin-top: 10%
+}
+
+div {
+margin-bottom:20px;
+
+justify-content: space-between;
+align-items: center;
+
+}
+.bird {
+    padding: 20px;
+    background-color: red;
+
+}
+.headerContainer {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: tomato;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.name_bold {
+   background-color: blue;
+   
+}
+label, input, button {
+    font-size: 16px;
+    line-height: 1.5;
+}
+label {
+    text-align: right;
+    width: 30%;
+    margin-right: 2%;
+}
+input {
+    flex: auto;
+}
+button {
+    width: 70%;
+    margin: 0 auto;
+}
+div {
+margin-bottom:20px;
+
+justify-content: space-between;
+align-items: center;
+}
+
+.font {
+   background-color: red;
+   padding: 10px;
+   text: white;
+}
+
+@media only screen and (max-width: 960px){
+/* 
+    .form{
+        width: 85%;
+        padding: 44px 20px;
+    }  */
+     .form{
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\ashok\Downloads\javascriptProgramming\BirdSanctury\css\bird.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,500&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel = "icon" href = 
+"C:\Users\ashok\Downloads\javascriptProgramming\BirdSanctury\colorbird.jfif" 
+        type = "image/x-icon">
+    <title>Bird Sanctury Management</title>
+  <style>
+body {
+  background-image: url('C:\\Users\\ashok\\Downloads\\javascriptProgramming\\BirdSanctury\\bird.jfif');
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 80%;
+}
+
+</style>
+    
+</head>
+
+<body >
+<header class="header-content header">
+<div class="logo-content">
+<img src="C:\Users\ashok\Downloads\javascriptProgramming\BirdSanctury\colorbird.jfif" alt="image with bird">
+</div>
+</header>
+<div class="logo-content">
+<marquee class= "font" ><b><h1 class="name_bold">Welcome To Bird Sanctury Management</h1></b></marquee>
+
+<form class="form" form ="Bird_form" onsubmit="submit_form()"> 
+        <header class="headerContainer"><h1>Adding Bird</h1></header>
+    
+<div>
+                    <label class="label text" for="bird_Name">Enter a bird Name:</label>
+                    <input type="text" placeholder="Enter a bird Name" required/>
+</div> <br><br> 
+<div class="row-content">   <!--Adding bird Activity-->
+                <label class="label text" for="activity">Activity :</label>
+        
+                    <input type="checkbox" type="checkbox" id="flyable" name="flyable" value="flyable">
+                    <label class="text" for="flyable">flyable</label>
+                    <input type="checkbox" type="checkbox" id="swimmable" name="swimmable" value="swimmable">
+                    <label class="text" for="swimmable">swimmable</label>
+</div><br><br>
+            
+<div class="row-content">   <!--Adding Bird Color-->
+                    <label class="label text" for="color">Color :</label>
+                    <input type="checkbox" type="checkbox" id="white" name="white" value="white" >
+                    <label class="text" for="white">white</label>
+                    <input type="checkbox" type="checkbox" id="black" name="black" value="black">
+                    <label class="text" for="black">black</label>
+                    <input type="checkbox" type="checkbox" id="green" name="green" value="green">
+                    <label class="text" for="green">green</label>
+                    <input type="checkbox" type="checkbox" id="blue" name="blue" value="blue">
+                    <label class="text" for="blue">blue</label>
+</div><br><br>
+        <div>
+            <label class="label text" for="id">BirdID :</label>
+            <input type="number" id="birdid" name="birdid" required>
+        </div><br><br>
+        <div>
+            <button>Add</button>
+        </div>
+    
+       
+</form>
+ <div>
+        <footer>
+        <address>
+        <p>welcome to bird santury.</p>
+        <p>developed by Bridgelabz</p>
+        </address>
+        </footer>
+    </div>
+</body>
+<script type="text/javascript">  
+function submit_form(){  
+alert("Added Successfully");  
+}   
+</script>
+</html>
